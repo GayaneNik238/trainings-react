@@ -20,7 +20,7 @@ function Cryptotracker() {
 
     return(
         <div className="crypto" >
-            <div>Crypto Tracker</div>
+            <div>Crypto</div>
             {
                 cryptoMenu.map((cryptoItem) => {
                     return <div className="cryptoTable">
