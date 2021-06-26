@@ -1,0 +1,40 @@
+.tableMenuNav {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    height: 40px;
+  }
+  
+  .tableMenuItem {
+    padding: 0 10px;
+  }
+  
+  .tableMenuItem a {
+    text-decoration: none;  
+    text-transform: uppercase;
+    color: #737595;
+    font-size: 12px;
+  }
+  
+  .tableMenuItem a:hover {
+    color: white;
+    text-decoration-line: underline;
+    text-underline-offset: 3px;
+    text-decoration-color: purple;
+    transition-duration: 0.6s;
+    text-decoration-thickness: 3px;
+  }
+  
+  .table-right {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    color: #737595;
+    font-size: 15px;
+  }
+  
+  .down-arrow {
+    padding-right: 20px;
+  }

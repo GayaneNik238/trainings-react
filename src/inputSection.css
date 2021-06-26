@@ -1,0 +1,37 @@
+.input-container {
+    height: 40px;
+    width:  100%;
+    background-color: #171931;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.input {
+    height: 100%;
+    width: 40%;
+    border: none;
+    padding: 0;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    padding-left: 15px;
+    background-color: #171931;
+}
+
+.input:focus {
+    outline: none;
+}
+
+.icons {
+    height: 100%;
+    width: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding-right: 15px;
+}
+
+.react-icon {
+    font-size: 20px;
+    padding: 0 10px;
+}

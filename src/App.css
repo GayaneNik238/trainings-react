@@ -1,0 +1,87 @@
+body {
+    background-color: rgb(11,13, 38 );
+    color: white; 
+    box-sizing: border-box;
+  }
+  
+  
+  .App {
+    width: 20%;
+    padding: 0 20px;
+  }
+  
+  .logoName {
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+  }
+  
+  .imgLogo {
+    padding-right: 10px;
+  }
+  
+  .container {
+    /* background-color: tomato; */
+    width: 70%;
+    padding-right: 20px;
+  }
+  
+  .main {
+    display: flex;
+    justify-content: space-between;    
+    margin-top: 20px;
+  }
+  
+  .menuItem {
+    padding: 10px 10px;
+  }
+  
+  .menuItem:hover {
+    background-color:  #171931;
+    ;
+  }
+  
+  .crypto {
+    background-color: #171931;
+    margin: 20px 0;
+    border-radius: 5px;
+    padding: 15px 15px 15px 15px;
+  }
+  
+  .cryptoTable {
+    display: inline-block;
+    padding-right: 150px;
+    margin-top: 20px;
+  }  
+  
+  .cryptoHeader {
+    font-size: 15px;
+    color: #737595;
+  }
+  
+  #cryptoText {
+    color: white;
+  }
+  
+  #table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  th {
+    height: 40px;
+    font-size: 10px;
+    color: #737595;
+    text-align: left;
+    padding: 0 15px;
+    background-color: #192039;
+  } 
+  
+  td {
+    padding: 5px 15px 5px;
+  }
+  
+  tr {
+    background-color: #171931;
+  }
+  
