@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/trainings-react/static/css/main.b7387830.chunk.css",
-    "main.js": "/trainings-react/static/js/main.cd5ffc97.chunk.js",
-    "main.js.map": "/trainings-react/static/js/main.cd5ffc97.chunk.js.map",
-    "runtime-main.js": "/trainings-react/static/js/runtime-main.d23e2a64.js",
-    "runtime-main.js.map": "/trainings-react/static/js/runtime-main.d23e2a64.js.map",
-    "static/js/2.33a3a859.chunk.js": "/trainings-react/static/js/2.33a3a859.chunk.js",
-    "static/js/2.33a3a859.chunk.js.map": "/trainings-react/static/js/2.33a3a859.chunk.js.map",
-    "static/js/3.015834e6.chunk.js": "/trainings-react/static/js/3.015834e6.chunk.js",
-    "static/js/3.015834e6.chunk.js.map": "/trainings-react/static/js/3.015834e6.chunk.js.map",
+    "main.css": "/trainings-react/static/css/main.1fbb54e8.chunk.css",
+    "main.js": "/trainings-react/static/js/main.8769724c.chunk.js",
+    "main.js.map": "/trainings-react/static/js/main.8769724c.chunk.js.map",
+    "runtime-main.js": "/trainings-react/static/js/runtime-main.4156b300.js",
+    "runtime-main.js.map": "/trainings-react/static/js/runtime-main.4156b300.js.map",
+    "static/js/2.0d532d6e.chunk.js": "/trainings-react/static/js/2.0d532d6e.chunk.js",
+    "static/js/2.0d532d6e.chunk.js.map": "/trainings-react/static/js/2.0d532d6e.chunk.js.map",
+    "static/js/3.c357898c.chunk.js": "/trainings-react/static/js/3.c357898c.chunk.js",
+    "static/js/3.c357898c.chunk.js.map": "/trainings-react/static/js/3.c357898c.chunk.js.map",
     "index.html": "/trainings-react/index.html",
-    "static/css/main.b7387830.chunk.css.map": "/trainings-react/static/css/main.b7387830.chunk.css.map",
-    "static/js/2.33a3a859.chunk.js.LICENSE.txt": "/trainings-react/static/js/2.33a3a859.chunk.js.LICENSE.txt",
+    "static/css/main.1fbb54e8.chunk.css.map": "/trainings-react/static/css/main.1fbb54e8.chunk.css.map",
+    "static/js/2.0d532d6e.chunk.js.LICENSE.txt": "/trainings-react/static/js/2.0d532d6e.chunk.js.LICENSE.txt",
     "static/media/findMe.8cedcbe8.png": "/trainings-react/static/media/findMe.8cedcbe8.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.d23e2a64.js",
-    "static/js/2.33a3a859.chunk.js",
-    "static/css/main.b7387830.chunk.css",
-    "static/js/main.cd5ffc97.chunk.js"
+    "static/js/runtime-main.4156b300.js",
+    "static/js/2.0d532d6e.chunk.js",
+    "static/css/main.1fbb54e8.chunk.css",
+    "static/js/main.8769724c.chunk.js"
   ]
 }
