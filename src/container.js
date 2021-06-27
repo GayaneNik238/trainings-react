@@ -9,7 +9,7 @@ import Table from './table';
 function Container() {
     return(
         <div className="container">
-            <InputSection />
+            {/* <InputSection /> */}
             {/* <Cryptotracker /> */}
             <TableHead />
             <Table />

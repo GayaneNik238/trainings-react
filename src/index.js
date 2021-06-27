@@ -5,6 +5,7 @@ import App from './App';
 import App2 from './App2';
 import reportWebVitals from './reportWebVitals';
 import Container from './container';
+import Header from './Header'
 
 // import '../node_modules/font-awesome/css/font-awesome.min.css'; 
 
@@ -12,6 +13,7 @@ import Container from './container';
 ReactDOM.render(
   <React.StrictMode>
     <div className="main">
+      <Header />
       <App />
      <Container />
      <App2 />

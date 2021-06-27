@@ -1,6 +1,6 @@
 import './App.css';
 import React from "react";
-import Header from './header';
+import Header from './Header';
 import { BsArrowLeftRight } from "react-icons/bs";
 
 function App() {
@@ -20,7 +20,7 @@ function App() {
   
   return (
     <div className="App"> 
-    <Header />
+    {/* <Header /> */}
     {
       sideMenu.map((sideMenuItem) => {
         return <div>
