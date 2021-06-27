@@ -10,7 +10,7 @@ function Container() {
     return(
         <div className="container">
             <InputSection />
-            <Cryptotracker />
+            {/* <Cryptotracker /> */}
             <TableHead />
             <Table />
 
