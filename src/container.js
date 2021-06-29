@@ -4,14 +4,16 @@ import Cryptotracker from './cryptotracker';
 import TableHead from './tableHead';
 import InputSection from './inputSection';
 import Table from './table';
+import Heading from './Heading';
 
 
 function Container() {
     return(
         <div className="container">
-            {/* <InputSection /> */}
+            <InputSection />
             {/* <Cryptotracker /> */}
-            <TableHead />
+            {/* <TableHead /> */}
+            <Heading />
             <Table />
 
 

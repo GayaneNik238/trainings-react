@@ -11,7 +11,7 @@ body {
   }
   
   .App {
-    width: 20%;
+    width: 290px;
     background-color: white;
     color: #477DBD;
     padding: 10px;
@@ -34,7 +34,20 @@ body {
   
   .container {
     /* background-color: tomato; */
-    width: 70%;
+    width: 60%;
+  }
+
+  .heading {
+    text-align: center;
+    color: #477DBD;
+    background-color: white;
+    height: 150px;
+    margin: 20px 0;
+    width: 100%;
+  }
+
+  .heading p {
+    padding: 15px 20px;
   }
   
   
@@ -44,8 +57,9 @@ body {
   
   .menuItem:hover {
     background-color:  #171931;
+    cursor: pointer;
   }
-  
+/*   
   .crypto {
     background-color: #171931;
     margin: 20px 0;
@@ -66,7 +80,7 @@ body {
   
   #cryptoText {
     color: white;
-  }
+  } */
   
   #table {
     width: 100%;
@@ -76,17 +90,19 @@ body {
   th {
     height: 40px;
     font-size: 10px;
-    color: #737595;
+    color: #477DBD;
     text-align: left;
     padding: 0 15px;
-    background-color: #192039;
+    background-color: white;
   } 
   
   td {
     padding: 5px 15px 5px;
+    color: #477DBD;
   }
   
   tr {
-    background-color: #171931;
+    background-color: white;
+    border: 1px solid #477DBD;
   }
   

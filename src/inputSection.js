@@ -9,10 +9,6 @@ function InputSection() {
         <div className="input-container">
             <input className="input" placeholder="Search"/>
             <div className="icons">
-                <span>
-                    Annette B.
-                </span>
-                <CgGirl className="react-icon"/>
                 <HiDotsCircleHorizontal className="react-icon" />
                 <BsFillBellFill className="react-icon"/>
             </div>
