@@ -4,37 +4,39 @@
 }
 
 body {
-    background-color: #E2EFE5;
+    background-color: #F5F5F5;
     color: white; 
     box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
   }
-  
   
   .App {
     width: 20%;
-    background-color: tomato;
+    background-color: white;
+    color: #477DBD;
+    padding: 10px;
   }
   
-  .logoName {
+  .logo {
+    width: 100px;
+  }
+
+
+  /* .logoName {
     display: flex;
     align-items: center;
     text-transform: uppercase;
-  }
-  
+  } */
+/*   
   .imgLogo {
     padding-right: 10px;
-  }
+  } */
   
   .container {
     /* background-color: tomato; */
     width: 70%;
   }
   
-  .main {
-    /* display: flex;
-    justify-content: space-between;    
-    margin-top: 20px; */
-  }
   
   .menuItem {
     padding: 10px 10px;
@@ -42,7 +44,6 @@ body {
   
   .menuItem:hover {
     background-color:  #171931;
-    ;
   }
   
   .crypto {

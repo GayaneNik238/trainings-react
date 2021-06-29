@@ -13,7 +13,7 @@ import Header from './Header'
 ReactDOM.render(
   <React.StrictMode>
     <div className="main">
-      <Header />
+      {/* <Header /> */}
       <App />
      <Container />
      <App2 />

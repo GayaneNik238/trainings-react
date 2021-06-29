@@ -1,33 +1,39 @@
 import './App.css';
 import React from "react";
 import Header from './Header';
-import { BsArrowLeftRight } from "react-icons/bs";
+import { IoCheckmarkDoneCircleOutline } from "react-icons/io5";
+
+
+import AdJob from './AdJob';
+
 
 function App() {
 
   let sideMenu = [
-    {menuItem: 'Swap'},
-    {menuItem: 'Flat to Crypto'},
+    {menuItem: 'Jobs'},
+    {menuItem: 'Trainings'},
     {menuItem: 'Market Data'},
-    {menuItem: 'Stake/Farm BMI'},
-    {menuItem: 'Claims Assessment'},
-    {menuItem: 'Shield Mining'},
-    {menuItem: 'DAO'},
-    {menuItem: 'Farming'},
-    {menuItem: 'Statistics'},
-    {menuItem: 'Settings'}
+    {menuItem: 'Internships'},
+    {menuItem: 'More than 500 workers'},
+    {menuItem: 'More than 1000 jobs done'},
+    {menuItem: '100+ new workers per year'},
   ]
   
+
+
   return (
     <div className="App"> 
-    {/* <Header /> */}
-    {
+    <Header />
+    { 
       sideMenu.map((sideMenuItem) => {
         return <div>
-          <p className="menuItem"> <BsArrowLeftRight /> {sideMenuItem.menuItem}</p> 
+          <p className="menuItem"> <IoCheckmarkDoneCircleOutline /> {sideMenuItem.menuItem}</p> 
         </div>;
       })
     }
+
+
+    <AdJob />
          
     </div>
   )

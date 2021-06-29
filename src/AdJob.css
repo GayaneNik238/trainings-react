@@ -1,0 +1,25 @@
+.adJobWrapper {
+    margin: 10px;
+
+}
+
+.adJob {
+    display: flex;
+    align-items: center;
+
+}
+
+.adJob img {
+    padding: 10px;
+}
+
+.adJobDesc {
+    display: flex;
+    vertical-align: middle;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.adJobDesc span {
+    padding: 5px 0;
+}
