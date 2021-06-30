@@ -11,13 +11,8 @@ function Container() {
     return(
         <div className="container">
             <InputSection />
-            {/* <Cryptotracker /> */}
-            {/* <TableHead /> */}
             <Heading />
-            
             <Table />
-
-
         </div>
     )
 }

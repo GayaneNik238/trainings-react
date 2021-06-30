@@ -9,7 +9,7 @@
 }
 
 .adJob img {
-    padding: 10px;
+    padding: 0 10px;
 }
 
 .adJobDesc {
@@ -21,4 +21,6 @@
 
 .adJobDesc span {
     padding: 5px 0;
+    display: flex;
+    justify-content: flex-start;
 }
