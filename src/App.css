@@ -11,10 +11,11 @@ body {
   }
   
   .App {
-    width: 290px;
+    width: 20%;
     background-color: white;
     color: #477DBD;
     padding: 10px;
+    height: 550px;
   }
   
   .logo {
@@ -33,8 +34,8 @@ body {
   } */
   
   .container {
-    /* background-color: tomato; */
-    width: 60%;
+    width: 55%;
+    margin: 0 10px;
   }
 
   .heading {
@@ -58,6 +59,13 @@ body {
   .menuItem:hover {
     background-color:  #171931;
     cursor: pointer;
+  }
+
+  .viewMore {
+    padding: 5px;
+    background-color: #477DBD;
+    color: white;
+    border: none;
   }
 /*   
   .crypto {

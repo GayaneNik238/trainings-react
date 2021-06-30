@@ -3,8 +3,8 @@ import './App.css';
 import img1 from './images/1.jpg';
 import { ImLocation2 } from "react-icons/im";
 
-let img = <img src={img1} height="100px"/>
-let btn = <button>View More</button>
+let img = <img src={img1} height="100px" width="80px"/>
+let btn = <button className="viewMore">View More</button>
 
 class Table extends Component{
     
@@ -13,13 +13,13 @@ class Table extends Component{
         this.state = {
             table: [
                { logo: img, company: "EPAM", training: 'React JS', level: 'beginner', location: 'Yerevan', btn: btn},
-               { logo: img, company: "EPAM", training: 'React JS', level: 'beginner', location: 'Yerevan', btn: btn},
-               { logo: img, company: "EPAM", training: 'React JS', level: 'beginner', location: 'Yerevan', btn: btn},
-               { logo: img, company: "EPAM", training: 'React JS', level: 'beginner', location: 'Yerevan', btn: btn},
-               { logo: img, company: "EPAM", training: 'React JS', level: 'beginner', location: 'Yerevan', btn: btn},
-               { logo: img, company: "EPAM", training: 'React JS', level: 'beginner', location: 'Yerevan', btn: btn},
-               { logo: img, company: "EPAM", training: 'React JS', level: 'beginner', location: 'Yerevan', btn: btn},
-               { logo: img, company: "EPAM", training: 'React JS', level: 'beginner', location: 'Yerevan', btn: btn}
+               { logo: img, company: "SFL", training: 'Angular', level: 'Middle', location: 'Stepanakert', btn: btn},
+               { logo: img, company: "ItHire", training: 'UI/UX', level: 'beginner', location: 'Yerevan', btn: btn},
+               { logo: img, company: "Picsart", training: 'Scrum / Agile', level: 'beginner', location: 'Gyumri', btn: btn},
+               { logo: img, company: "Microsoft", training: 'IT English', level: 'beginner', location: 'Vanazor', btn: btn},
+               { logo: img, company: "Volo", training: 'Web Design', level: 'beginner', location: 'Yerevan', btn: btn},
+               { logo: img, company: "Workfront", training: 'Java', level: 'Middle', location: 'Kapan', btn: btn},
+               { logo: img, company: "Innorise", training: 'C++', level: 'Middle', location: 'Yerevan', btn: btn}
             
             ]
         }
@@ -37,11 +37,6 @@ class Table extends Component{
                  <td>{level}</td>
                  <td><ImLocation2 />{location}</td>
                  <td>{btn}</td>
-                 {/* <td>{price}</td>
-                 <td>{priceBTC}</td>
-                 <td>{marketCap}</td>
-                 <td>{volume }</td>
-                 <td>{icon}</td> */}
               </tr>
            )
         })

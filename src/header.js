@@ -12,7 +12,6 @@ function Header() {
     return(
         <div  className="logo">
               <a href="#"><img src={logo}/></a>
-
         </div>
       
         // <div className="header">

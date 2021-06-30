@@ -11,7 +11,7 @@ function AdJob() {
             <hr style={{margin:"10px"}}></hr>
        
             <div className="adJob">
-                <img src={adLogo} height="110xp" width="110px"/>
+                <img src={adLogo} height="90xp" width="90px"/>
                 <div className="adJobDesc">
                     <span>CAD Engineer</span>
                     <span><ImLocation2 /> Yerevan</span>
