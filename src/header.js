@@ -11,7 +11,7 @@ function Header() {
 
     return(
         <div  className="logo">
-              <a href="#"><img src={logo}/></a>
+              <a href="https://find-me-5d911.web.app/home" target="_blank"><img src={logo}/></a>
         </div>
       
         // <div className="header">
